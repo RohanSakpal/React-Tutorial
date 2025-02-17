@@ -5,10 +5,10 @@ import './App.css'
 import Intro from './intro'
 
 function App() {
-
+  const username = 'Rohan'
   return (
     <>
-      <h1>Introduction of ReactJS</h1>
+      <h1>Introduction of ReactJS By {username}</h1>
       <Intro />
     </>
 
